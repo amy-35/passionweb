@@ -342,4 +342,26 @@ section #home .mainTag .mainBtn{
    margin-left: 37%;
    margin-top: -35px;
 }
-    
+#blog{
+    border: none;
+    width: 100%;
+    height: 0 auto;
+    background: #D1C4E9;
+    justify-content: space-between;
+    margin-top: -250px;
+} 
+.blogIcons{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #ff3f82;
+    padding-top: 20px;
+}
+#blog .bi{
+    padding: 20px;
+    color: #ff3f82;
+}
+.blogText{
+    color: #ff3f82;
+    text-decoration: none;
+}
