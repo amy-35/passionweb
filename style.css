@@ -19,7 +19,7 @@ section nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 10px #ff3f82;
+    box-shadow: 0 0 10px #09f764;
     background: #fff;
     position: fixed;
     left: 0;
@@ -44,7 +44,7 @@ section nav li a{
     transition: all 0.8s;
 }
 section nav li a:hover{
-    color: #ff3f82;
+    color: #09f764;
     font-weight: 800;
 }
 section nav .socialIcon i{
@@ -78,7 +78,7 @@ section #home h1{
     left: 80px;
 }
 section #home h1 span{
-    color: #ff3f82;
+    color: #09f764;
 }
 section #home p{
     width: 650px;
@@ -90,7 +90,7 @@ section #home p{
 }
 section #home .mainTag .mainBtn{
     background: none;
-    border: 3px solid #ff3f82;
+    border: 3px solid #09f764;
     padding: 10px 20px;
     position: relative;
     top: 180px;
@@ -115,7 +115,7 @@ section #home .mainTag .mainBtn{
     text-align: center;
     width: 310px;
     height: 180px;
-    box-shadow: 0 0 80px #ff3f82;
+    box-shadow: 0 0 80px #09f764;
     padding: 15px 10px;
 }
 #services .servicesBox .servicesTag i{
@@ -128,7 +128,7 @@ section #home .mainTag .mainBtn{
     margin-bottom: 10px;
 }
 #about .aboutTag span{
-    color: #ff3f82;
+    color: #09f764;
 }
 #about{
     width: 100%;
@@ -198,7 +198,7 @@ section #home .mainTag .mainBtn{
     transition: all 0.4s;
 }
 #features .featuredBookBox .featuredBookCard:hover{
-    box-shadow: 0 0 30px #ff3f82;
+    box-shadow: 0 0 30px #09f764;
     border-radius: 3px;
 }
 #features .featuredBookBox .featuredBookCard .featuredBookTag h2{
@@ -208,7 +208,7 @@ section #home .mainTag .mainBtn{
     color: #919191;
 }
 #features .featuredBookBox .featuredBookCard .featuredBookTag .categories{
-    color: #ff3f82;
+    color: #09f764;
     margin-top: 8px;
 }
 #features .featuredBookBox .featuredBookCard .featuredBookTag .bookPrice{
@@ -222,7 +222,7 @@ section #home .mainTag .mainBtn{
 }
 #features .featuredBookBox .featuredBookCard .featuredBookTag .fBtn{
     padding: 8px 20px;
-    border: 1px solid #ff3f82;
+    border: 1px solid #09f764;
     text-decoration: none;
     color: #000;
     border-radius: 5px;
@@ -266,7 +266,7 @@ section #home .mainTag .mainBtn{
     transition: all 0.4s;
 }
 #arrivals .arrivalsBox .arrivalsCard:hover{
-    box-shadow: 0 0 30px #ff3f82;
+    box-shadow: 0 0 30px #09f764;
     border-radius: 4px;
 }
 #arrivals .arrivalsBox .arrivalsCard .arrivalsImg{
@@ -292,12 +292,12 @@ section #home .mainTag .mainBtn{
     margin: 8px 0;
 }
 #arrivals .arrivalsBox .arrivalsCard .arrivalsTag .arrivalsIcon{
-    color: #ff3f82;
+    color: #09f764;
     margin-bottom: 18px;
 }
 #arrivals .arrivalsBox .arrivalsCard .arrivalsTag .arrivalsBtn{
     padding: 8px 20px;
-    border: 2px solid #ff3f82;
+    border: 2px solid #09f764;
     text-decoration: none;
     color: #000;
     border-radius: 4px;
@@ -324,7 +324,7 @@ section #home .mainTag .mainBtn{
     width: 95px;
     margin-left: 55%;
     background: none;
-    border: 2px solid #ff3f82;
+    border: 2px solid #09f764;
     border-radius: 5px;
     margin-top: 40px;
 }
@@ -332,7 +332,7 @@ section #home .mainTag .mainBtn{
     width: 30%;
     height: 50px;
     margin-left: 35%;
-    border: 2px solid #ff3f82;
+    border: 2px solid #09f764;
     border-radius: 5px;
     font-size: 1.2em;
     transition: all .3s;
@@ -346,7 +346,7 @@ section #home .mainTag .mainBtn{
     border: none;
     width: 100%;
     height: 0 auto;
-    background: #D1C4E9;
+    background: #000;
     justify-content: space-between;
     margin-top: -250px;
 } 
@@ -354,14 +354,14 @@ section #home .mainTag .mainBtn{
     margin: 50px;
     display: flex;
     flex-direction: column;
-    color: #ff3f82;
+    color: #09f764;
     padding-top: 20px;
 }
 #blog .bi{
     padding: 20px;
-    color: #ff3f82;
+    color: #09f764;
 }
 .blogText{
-    color: #ff3f82;
+    color: #09f764;
     text-decoration: none;
 }
