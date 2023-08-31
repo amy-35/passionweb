@@ -1,0 +1,304 @@
+
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/white-background-random-minimalist-abstract-illustration-for-logo-card-banner-web-and-printing-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #ff3f82;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    z-index: 100;
+}
+section nav .logo img{
+    width: 100px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+section nav ul{
+    list-style: none;
+}
+section nav li{
+    display: inline;
+    padding: 0 10px;
+    
+}
+section nav li a{
+    text-decoration: none;
+    color: #D1C4E9;
+    transition: all 0.8s;
+}
+section nav li a:hover{
+    color: #ff3f82;
+    font-weight: 800;
+}
+section nav .socialIcon i{
+    margin: 0 10px;
+    font-size: 18px;
+    color: #D1C4E9;
+    transition: all 0.8s;
+}
+section nav .socialIcon i:hover{
+    color: #000;
+    cursor: pointer;
+}
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 10%;
+}
+section .main .mainImg img{
+    width: 780px;
+    height: 500px;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+section .main h1{
+    position: relative;
+    font-size: 55px;
+    top: 80px;
+    left: 80px;
+}
+section .main h1 span{
+    color: #ff3f82;
+}
+section .main p{
+    width: 650px;
+    text-align: justify;
+    line-height: 22px;
+    position: relative;
+    top: 125px;
+    left: 80px;
+}
+section .main .mainTag .mainBtn{
+    background: none;
+    border: 3px solid #ff3f82;
+    padding: 10px 20px;
+    position: relative;
+    top: 180px;
+    left: 80px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.services{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+.services .servicesBox{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.services .servicesBox .servicesTag{
+    text-align: center;
+    width: 310px;
+    height: 180px;
+    box-shadow: 0 0 80px #ff3f82;
+    padding: 15px 10px;
+}
+.services .servicesBox .servicesTag i{
+    color: #D1C4E9;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.services .servicesBox .servicesTag h3{
+    margin-bottom: 10px;
+}
+.about .aboutTag span{
+    color: #ff3f82;
+}
+.about{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .aboutImg img{
+    width: 350px;
+}
+.about .aboutTag h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 25px;
+}
+.about .aboutTag p{
+    line-height: 22px;
+    width:650px ;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.about .aboutTag .aboutBtn{
+    padding: 10px 20px;
+    background: none;
+    border: 3px solid #D1C4E9;
+    color: #000;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
+}
+.featuredBooks .featuredBookImg img{
+    width: 100px;
+    height: 150px;
+}
+.featuredBooks{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+.featuredBooks h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.featuredBooks .featuredBookBox{
+    width: 95%;
+    height: 420px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.featuredBooks .featuredBookBox .featuredBookCard{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    margin: auto 20px;
+    background-color: gainsboro;
+    transition: all 0.4s;
+}
+.featuredBooks .featuredBookBox .featuredBookCard:hover{
+    box-shadow: 0 0 30px #ff3f82;
+    border-radius: 3px;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag h2{
+   margin: 12px;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag .writer{
+    color: #919191;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag .categories{
+    color: #ff3f82;
+    margin-top: 8px;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag .bookPrice{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag .bookPrice sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+.featuredBooks .featuredBookBox .featuredBookCard .featuredBookTag .fBtn{
+    padding: 8px 20px;
+    border: 1px solid #ff3f82;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar-thumb{
+    background: #000;
+    border-radius: 10px;
+}
+.arrivals{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 35px;
+}
+.arrivals h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.arrivals .arrivalsBox{
+    width: 95%;
+    height: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+}
+.arrivals .arrivalsBox .arrivalsCard{
+    width: 250px;
+    height: 340px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    margin: auto 20px;
+    background: gainsboro;
+    transition: all 0.4s;
+}
+.arrivals .arrivalsBox .arrivalsCard:hover{
+    box-shadow: 0 0 30px #ff3f82;
+    border-radius: 4px;
+}
+.arrivals .arrivalsBox .arrivalsCard .arrivalsImg{
+    width: 150px;
+    height: 220px;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.arrivals .arrivalsBox .arrivalsCard .arrivalsImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.3s;
+}
+.arrivals .arrivalsBox .arrivalsCard:hover .arrivalsImg img{
+    transform: scale(1.1);
+}
+.arrivals .arrivalsBox .arrivalsCard .arrivalsTag p{
+    size: 20px;
+    margin: 8px 0;
+}
+.arrivals .arrivalsBox .arrivalsCard .arrivalsTag .arrivalsIcon{
+    color: #ff3f82;
+    margin-bottom: 18px;
+}
+.arrivals .arrivalsBox .arrivalsCard .arrivalsTag .arrivalsBtn{
+    padding: 8px 20px;
+    border: 2px solid #ff3f82;
+    text-decoration: none;
+    color: #000;
+    border-radius: 4px;
+}
